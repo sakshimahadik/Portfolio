@@ -4,9 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class="header_section">
+        <img src="./sakshi.jpeg" alt="Profile image" class="header_section_Profile_image" >
+        <h1>Sakshi Mahadik</h1>
+        <img src="./down arrow.gif" alt="" class="header_section_down_arrow" id="header_section_down_arrow" onclick="moveToSection(this.id)">
+    </header>
+    <main class="about_section">
+        <img src="./down arrow.gif" alt="up_arrow" class="about_section_up_arrow" id="about_section_up_arrow" onclick="moveToSection(this.id)">
+        <h1 class="about_section_heading">About</h1>
+        <p class="about_section_info">A passionate individual who loves building web applications, a developer and
+            dancer by passion, an engineer by profession. The motto of my life is to be determined towards the software
+            world and its development for the betterment in the standard of living of the society.</p>
+            <a href="./resume sakshi.pdf" target="_blank">📄 Download Resume</a>
+            <img src="./down arrow.gif" alt="down_arrow" class="about_section_down_arrow" id="about_section_down_arrow" onclick="moveToSection(this.id)">
+        </main>
+    <section class="education_section">
+        <img src="./down arrow.gif" alt="up_arrow" class="education_section_up_arrow" id="education_section_up_arrow" onclick="moveToSection(this.id)">
+        <h1>Education</h1>
+        
+        <table>
+            <tr>
+                <th>Course</th>
+                <th>School/University</th>
+                <th>Year of passing</th>
+                <th>Score</th>
+            </tr>
+            <tr>
+                <td>B.E. in Computer Engineering</td>
+                <td>Mumbai University</td>
+                <td>2022</td>
+                <td>8.02 CGPA (Current)</td>
+            </tr>
+            <tr>
+                <td>Higher Secondary Certification </td>
+                <td>Rotary English Medium School Khed</td>
+                <td>2018</td>
+                <td>85.20%</td>
+            </tr>
+            <tr>
+                <td>Secondary School Certification</td>
+                <td>Nav-Bharat High School Bharane</td>
+                <td>2016</td>
+                <td>92%</td>
+            </tr>
+        </table>
+        <img src="./down arrow.gif" alt="down_arrow" class="education_section_down_arrow" id="education_section_down_arrow" onclick="moveToSection(this.id)">
     
+    
+    </section>
+    <footer class="contact_section">
+        <img src="./down arrow.gif" alt="up_arrow" class="contact_section_up_arrow" id="contact_section_up_arrow" onclick="moveToSection(this.id)">
+        <h1>Get in touch</h1>
+        <a href=" " target="_blank">
+            <img src="./facebook.png" alt="" class="contact_section_facebook"></a>
+        <a href=" " target="_blank">
+            <img src="./mail.png" alt="" class="contact_section_mail"></a>
+        <a href="" target="_blank">
+            <img src="./linkedin.png" alt="" class="contact_section_linkedin"></a>
+        <a href=" " target="_blank">
+            <img src="./instagram.png" alt="" class="contact_section_instagram"></a>
+        
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>

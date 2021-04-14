@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+body{
+    background: url(./wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*Header section*/
+.header_section{
+    height: 100vh;
+    position: relative;
+}
+.header_section_Profile_image{
+    position: absolute;
+    height: 400px;
+    top: 75px;
+    border-radius: 50%;
+    left: calc(50% - 200px);
+}
+.header_section h1{
+    width: 100%;
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 500px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+}
+
+.header_section_down_arrow{
+    cursor: pointer;
+    position: absolute;
+    height: 100px;
+    bottom: 10px;
+    left: calc(50% - 50px);
+}
+
+/*about section*/
+.about_section{
+    position: relative;
+    height: 100vh;
+}
+.about_section_up_arrow{
+    cursor: pointer;
+    transform: rotate(180deg);
+    position: absolute;
+    height: 100px;
+    top: 10px;
+    left: calc(50% - 50px);
+}
+.about_section h1{
+    width: 100%;
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 160px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 45px;
+}
+.about_section p{
+    width: 100%;
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 190px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    padding: 7%;
+    box-sizing: border-box;
+}
+.about_section a{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    top: 475px;
+    width: 310px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    border: 2px solid white;
+    padding: 15px 10px;
+    border-radius: 7px;
+    left: calc(50% - 170px);
+}
+.about_section a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+.about_section_down_arrow{
+    cursor: pointer;
+    position: absolute;
+    height: 100px;
+    bottom: 10px;
+    left: calc(50% - 50px);
+}
+
+/* education Section */
+.education_section{
+    height: 100vh;
+    position: relative;
+}
+.education_section_up_arrow{
+    cursor: pointer;
+    transform: rotate(180deg);
+    position: absolute;
+    height: 100px;
+    top: 10px;
+    left: calc(50% - 50px);
+}
+.education_section h1{
+    width: 100%;
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 120px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 65px;
+}
+.education_section table{
+    color: white;
+    position: absolute;
+    top: 390px;
+    font-size: 32px;
+    font-family: 'Ubuntu', sans-serif;
+    left: 138px;
+    border: 1.5px solid white;
+    border-collapse: collapse;
+}
+.education_section td, th{
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 10px;
+}
+.education_section_down_arrow{
+    cursor: pointer;
+    position: absolute;
+    height: 100px;
+    bottom: 10px;
+    left: calc(50% - 50px);
+}
+
+
+/* contact Section */
+.contact_section{
+    height: 100vh;
+    position: relative;
+}
+.contact_section_up_arrow{
+    cursor: pointer;
+    transform: rotate(180deg);
+    position: absolute;
+    height: 100px;
+    top: 10px;
+    left: calc(50% - 50px);  
+}
+.contact_section h1{
+    width: 100%;
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 120px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 45px;
+}
+.contact_section_facebook{
+    position: absolute;
+    width: 100px;
+    left: calc(50% - 250px);
+    top: 300px;
+}
+.contact_section_mail{
+    position: absolute;
+    width: 100px;
+    left: calc(50% - 120px);
+    top: 300px;
+}
+.contact_section_linkedin{
+    position: absolute;
+    width: 100px;
+    left: calc(50% + 20px);
+    top: 300px;
+}
+.contact_section_instagram{
+    position: absolute;
+    width: 100px;
+    left: calc(50% + 150px);
+    top: 300px;
+}
